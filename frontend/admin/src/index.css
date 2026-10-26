@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
+  font-family: Outfit;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active {
+  background-color: #F2F3FF;
+  border-right-width: 4px;
+  border-color: #5F6FFF;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
